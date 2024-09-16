@@ -1,0 +1,28 @@
+{
+    // 以下三个设置项用于设置被启动的外部命令行应用，在工作区设置中无效
+    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.external.linuxExec": "xterm",
+    "terminal.external.osxExec": "Terminal.app",
+    // 新的命令行应用将显示在编辑器区域中
+    "terminal.integrated.defaultLocation": "editor",
+    // 设置工作区的 src 文件夹为命令行的当前工作目录
+    "terminal.integrated.cwd": "src",
+	// 新的命令行应用的当前工作目录为工作区的根目录
+	"terminal.integrated.splitCwd": "workspaceRoot",
+    // 命令行可以保留 200 行的信息
+    "terminal.integrated.scrollback": 200,
+    // 滚动将显示动画效果
+    "terminal.integrated.smoothScrolling": true,
+    // 自动复制选中的内容
+    "terminal.integrated.copyOnSelection": true,
+    // 禁用粘贴警告
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    // 禁止远程环境中的文件链接
+    "terminal.integrated.enableFileLinks": "notRemote",
+    // 设置单词分隔符
+    "terminal.integrated.wordSeparators": " (),",
+    // 单击鼠标右键时将选择鼠标处的文本，并显示上下文菜单
+    "terminal.integrated.rightClickBehavior": "selectWord",
+    // 按住 Alt 键并点击鼠标左键时不再移动光标
+    "terminal.integrated.altClickMovesCursor": false,
+}

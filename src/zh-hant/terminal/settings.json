@@ -1,0 +1,28 @@
+{
+    // 以下三個設定項用於設定被啟動的外部命令列應用，在工作區設定中無效
+    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.external.linuxExec": "xterm",
+    "terminal.external.osxExec": "Terminal.app",
+    // 新的命令列應用將顯示在編輯器區域中
+    "terminal.integrated.defaultLocation": "editor",
+    // 設定工作區的 src 資料夾為命令列的目前工作目錄
+    "terminal.integrated.cwd": "src",
+	// 新的命令列應用的目前工作目錄為工作區的根目錄
+	"terminal.integrated.splitCwd": "workspaceRoot",
+    // 命令列可以保留 200 行的資訊
+    "terminal.integrated.scrollback": 200,
+    // 捲動將顯示動畫效果
+    "terminal.integrated.smoothScrolling": true,
+    // 自動複製選取的內容
+    "terminal.integrated.copyOnSelection": true,
+    // 停用貼上警告
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    // 禁止遠端環境中的檔案連結
+    "terminal.integrated.enableFileLinks": "notRemote",
+    // 設定單詞分隔符
+    "terminal.integrated.wordSeparators": " (),",
+    // 按一下滑鼠右鍵時將選擇滑鼠處的文字，並顯示操作功能表
+    "terminal.integrated.rightClickBehavior": "selectWord",
+    // 按住 Alt 鍵並點選滑鼠左鍵時不再移動遊標
+    "terminal.integrated.altClickMovesCursor": false,
+}

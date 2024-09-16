@@ -1,0 +1,75 @@
+{
+    // 管理 Windows 中的命令列的環境變數
+    "terminal.integrated.env.windows": {
+        // 刪除已有的環境變數 OS
+        "OS": null,
+        // 新增新的環境變數 OS_OTHER
+        "OS_OTHER": "Other worlds!",
+    },
+    // Windows 系統中的終端機設定檔案
+    "terminal.integrated.profiles.windows": {
+        // 終端機設定檔案 A Shell
+        "A Shell": {
+            "path": "<殼層程式的路徑資訊>",
+        },
+        // 終端機設定檔案 New PS
+        "New PS": {
+            // 采用內建的終端機設定檔案 PowerShell
+            "source": "PowerShell",
+            // 覆蓋 path 屬性，改為啟動 Windows 命令提示字元
+            "path": "cmd",
+        },
+        // 終端機設定檔案 PS-parameters
+        "PS-parameters": {
+            // 采用內建的終端機設定檔案 PowerShell
+            "source": "PowerShell",
+            // 為 PowerShell 新增啟動參數
+            "args": [
+                // 啟動參數 -OutputFormat，其值為 XML
+                "-OutputFormat", "XML",
+            ],
+        },
+        // 終端機設定檔案 CMD-variables（可能需要重新啟動 VSCode）
+        "CMD-variables": {
+            // 啟動 Windows 命令提示字元
+            "path": "cmd",
+            "env": {
+                // 變更已有的環境變數 OS
+                "OS": "Hello world!",
+                // 新增新的環境變數 OS_OTHER
+                "OS_OTHER": "Hello other worlds!",
+            }
+        },
+        // 終端機設定檔案 CMD-override（可能需要重新啟動 VSCode）
+        "CMD-override": {
+            // 啟動 Windows 命令提示字元
+            "path": "cmd",
+            "env": {
+                // 重新新增已被刪除的環境變數 OS
+                "OS": "Hello world!",
+            }
+        },
+        // 終端機設定檔案 PS-customized
+        "PS-customized": {
+            // 采用內建的終端機設定檔案 PowerShell
+            "source": "PowerShell",
+            // 將命令列應用的標題取代為終端機設定檔案的名稱 PS-customized
+            "overrideName": true,
+            // 設定終端機的圖示
+            "icon": "calendar",
+            // 設定終端機的圖示的色彩
+            "color": "terminal.ansiGreen",
+        },
+        // 移除終端機設定檔案 Command Prompt
+        "Command Prompt": null,
+    },
+    // 選擇 PS-customized 作為預設的終端機設定檔案
+    "terminal.integrated.defaultProfile.windows": "PS-customized",
+    // 為自動化功能設定終端機設定檔案
+    "terminal.integrated.automationProfile.windows": {
+        // 啟動 Windows 命令提示字元
+        "path": "cmd",
+        // 設定終端機的圖示的色彩（可能沒有效果）
+        "color": "terminal.ansiRed",
+    },
+}

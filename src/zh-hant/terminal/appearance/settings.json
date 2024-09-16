@@ -1,0 +1,108 @@
+{
+    // 字型家族為 Courier New
+    "terminal.integrated.fontFamily": "Courier New",
+    // 字型小大為 24 像素
+    "terminal.integrated.fontSize": 24,
+    // 非粗體文字的字型粗細為 600
+    "terminal.integrated.fontWeight": 600,
+    // 粗體文字的字型粗細為 normal
+    "terminal.integrated.fontWeightBold": "normal",
+    // 字元之間的額外間距為 5 像素
+    "terminal.integrated.letterSpacing": 5,
+    // 多行文字之間的行高為正常行高的 1.2 倍
+    "terminal.integrated.lineHeight": 1.2,
+    // 為一些特殊字元啟用自訂字形
+    "terminal.integrated.customGlyphs": true,
+    "workbench.colorCustomizations": {
+        // 前景色彩
+        "terminal.foreground": "#eee",
+        // 背景色彩
+        "terminal.background": "#111",
+        // 作為拖放目標時的背景色彩
+        "terminal.dropBackground": "#00FF0033",
+        // 分割窗格的邊框色彩
+        "terminal.border": "#fff",
+        // 選取內容的前景色彩
+        "terminal.selectionForeground": "#FFF",
+        // 選取內容的背景色彩
+        "terminal.selectionBackground": "#239484",
+        // 活動終端機中選取內容的背景色彩
+        "terminal.inactiveSelectionBackground": "#6483ac",
+        // 暫留時醒目提示內容的背景色彩
+        "terminal.hoverHighlightBackground": "#79797999",
+        // 遊標的色彩
+        "terminalCursor.foreground": "#beeb6b",
+        // 被塊狀遊標遮住的內容的色彩
+        "terminalCursor.background": "#278ef6",
+        // 概述標尺的邊框色彩
+        "terminalOverviewRuler.border": "#ff0000",
+        // 遊標在概述標尺中的色彩
+        "terminalOverviewRuler.cursorForeground": "#c8c211",
+        // 尋找相符項在概述標尺中的色彩
+        "terminalOverviewRuler.findMatchForeground": "#1aff00",
+        // 目前尋找相符項的背景色彩
+        "terminal.findMatchBackground": "#0f57f333",
+        // 目前尋找相符項的邊框色彩
+        "terminal.findMatchBorder": "#ff6600",
+        // 非目前尋找相符項的背景色彩
+        "terminal.findMatchHighlightBackground": "#ff660033",
+        // 非目前尋找相符項的邊框色彩
+        "terminal.findMatchHighlightBorder": "#0f57f3",
+        // 預設命令修飾的背景色彩
+        "terminalCommandDecoration.defaultBackground": "#b5b5b5",
+        // 執行成功的命令修飾的背景色彩
+        "terminalCommandDecoration.successBackground": "#007c13",
+        // 執行錯誤的命令修飾的背景色彩
+        "terminalCommandDecoration.errorBackground": "#760000",
+        // 自黏捲動覆蓋層的背景色彩
+        "terminalStickyScroll.background": "#004d3f",
+        // 自黏捲動覆蓋層的邊框色彩
+        "terminalStickyScroll.border": "#00ceb2",
+        // 暫留時自黏捲動覆蓋層的背景色彩
+        "terminalStickyScrollHover.background": "#00886f",
+        // 右邊區域的活動索引標簽的邊框色彩
+        "terminal.tab.activeBorder": "#8491fb",
+        // 命令指南的色彩
+        "terminalCommandGuide.foreground": "#ece639",
+        // ANSI 色彩 Black
+        "terminal.ansiBlack": "#111",
+        // ANSI 色彩 Red
+        "terminal.ansiRed": "#aa0000",
+    },
+    // 粗體不采用明亮 ANSI 色彩
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    // 前景色彩的最小對比度
+    "terminal.integrated.minimumContrastRatio": 10,
+    // 獲得焦點時的遊標形狀為塊狀
+    "terminal.integrated.cursorStyle": "block",
+    // 未獲得焦點時的遊標形狀為線狀
+    "terminal.integrated.cursorStyleInactive": "line",
+    // 遊標寬度為 10，僅在形狀為線狀時有效
+    "terminal.integrated.cursorWidth": 10,
+    // 遊標閃爍
+    "terminal.integrated.cursorBlinking": true,
+    // 僅有一個命令列或命令列組時隱藏索引標簽
+    "terminal.integrated.tabs.hideCondition": "singleGroup",
+    // 索引標簽顯示在左邊
+    "terminal.integrated.tabs.location": "left",
+    // 使用串列代替索引標簽
+    "terminal.integrated.tabs.enabled": true,
+    // 總是顯示命令列資訊
+    "terminal.integrated.tabs.showActiveTerminal": "always",
+    // 僅有一個命令列或命令列組時顯示分割和終止按鈕
+    "terminal.integrated.tabs.showActions": "singleTerminal",
+    // 命令列應用狀態停用動畫效果
+    "terminal.integrated.tabs.enableAnimation": false,
+    // 命令列應用的標題為目前工作目錄
+    "terminal.integrated.tabs.title": "目錄：${cwd}",
+    // 命令列應用的說明資訊為命令列應用傳遞給 VSCode 的名稱
+    "terminal.integrated.tabs.description": "${sequence}",
+    // 命令列應用的說明和標題之間的分隔符
+    "terminal.integrated.tabs.separator": "+-+",
+    // 預設圖示為陣列
+    "terminal.integrated.tabs.defaultIcon": "array",
+    // 預設色彩為 ANSI 黃色
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
+    // 啟用 GPU 加速功能
+    "terminal.integrated.gpuAcceleration": "on",
+}

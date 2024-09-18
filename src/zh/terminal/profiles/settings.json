@@ -29,7 +29,7 @@
                 "-OutputFormat", "XML",
             ],
         },
-        // 终端配置文件 CMD-variables（可能需要重启 VSCode）
+        // 终端配置文件 CMD-variables（可能需要重启 Visual Studio Code）
         "CMD-variables": {
             // 启动 Windows 命令提示符
             "path": "cmd",
@@ -40,7 +40,7 @@
                 "OS_OTHER": "Hello other worlds!",
             }
         },
-        // 终端配置文件 CMD-override（可能需要重启 VSCode）
+        // 终端配置文件 CMD-override（可能需要重启 Visual Studio Code）
         "CMD-override": {
             // 启动 Windows 命令提示符
             "path": "cmd",

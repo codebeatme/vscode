@@ -95,7 +95,7 @@
     "terminal.integrated.tabs.enableAnimation": false,
     // 命令列應用的標題為目前工作目錄
     "terminal.integrated.tabs.title": "目錄：${cwd}",
-    // 命令列應用的說明資訊為命令列應用傳遞給 VSCode 的名稱
+    // 命令列應用的說明資訊為命令列應用傳遞給 Visual Studio Code 的名稱
     "terminal.integrated.tabs.description": "${sequence}",
     // 命令列應用的說明和標題之間的分隔符
     "terminal.integrated.tabs.separator": "+-+",
@@ -105,4 +105,5 @@
     "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
     // 啟用 GPU 加速功能
     "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.enableVisualBell":,
 }

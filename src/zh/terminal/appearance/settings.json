@@ -95,7 +95,7 @@
     "terminal.integrated.tabs.enableAnimation": false,
     // 命令行应用的标题为当前工作目录
     "terminal.integrated.tabs.title": "目录：${cwd}",
-    // 命令行应用的说明信息为命令行应用传递给 VSCode 的名称
+    // 命令行应用的说明信息为命令行应用传递给 Visual Studio Code 的名称
     "terminal.integrated.tabs.description": "${sequence}",
     // 命令行应用的说明和标题之间的分隔符
     "terminal.integrated.tabs.separator": "+-+",

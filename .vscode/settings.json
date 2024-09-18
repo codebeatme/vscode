@@ -1,108 +1,30 @@
 {
-    // 字体家族为 Courier New
-    "terminal.integrated.fontFamily": "Courier New",
-    // 字体小大为 24 像素
-    "terminal.integrated.fontSize": 24,
-    // 非粗体文本的字体粗细为 600
-    "terminal.integrated.fontWeight": 600,
-    // 粗体文本的字体粗细为 normal
-    "terminal.integrated.fontWeightBold": "normal",
-    // 字符之间的额外间距为 5 像素
-    "terminal.integrated.letterSpacing": 5,
-    // 多行文本之间的行高为正常行高的 1.2 倍
-    "terminal.integrated.lineHeight": 1.2,
-    // 为一些特殊字符启用自定义字形
-    "terminal.integrated.customGlyphs": true,
-    "workbench.colorCustomizations": {
-        // 前景颜色
-        "terminal.foreground": "#eee",
-        // 背景颜色
-        "terminal.background": "#111",
-        // 作为拖放目标时的背景颜色
-        "terminal.dropBackground": "#00FF0033",
-        // 拆分窗格的边框颜色
-        "terminal.border": "#fff",
-        // 选中内容的前景颜色
-        "terminal.selectionForeground": "#FFF",
-        // 选中内容的背景颜色
-        "terminal.selectionBackground": "#239484",
-        // 活动终端中选中内容的背景颜色
-        "terminal.inactiveSelectionBackground": "#6483ac",
-        // 悬停时高亮内容的背景颜色
-        "terminal.hoverHighlightBackground": "#79797999",
-        // 游标的颜色
-        "terminalCursor.foreground": "#beeb6b",
-        // 被块状游标遮住的内容的颜色
-        "terminalCursor.background": "#278ef6",
-        // 概述标尺的边框颜色
-        "terminalOverviewRuler.border": "#ff0000",
-        // 光标在概述标尺中的颜色
-        "terminalOverviewRuler.cursorForeground": "#c8c211",
-        // 查找匹配项在概述标尺中的颜色
-        "terminalOverviewRuler.findMatchForeground": "#1aff00",
-        // 当前查找匹配项的背景颜色
-        "terminal.findMatchBackground": "#0f57f333",
-        // 当前查找匹配项的边框颜色
-        "terminal.findMatchBorder": "#ff6600",
-        // 非当前查找匹配项的背景颜色
-        "terminal.findMatchHighlightBackground": "#ff660033",
-        // 非当前查找匹配项的边框颜色
-        "terminal.findMatchHighlightBorder": "#0f57f3",
-        // 默认命令修饰的背景颜色
-        "terminalCommandDecoration.defaultBackground": "#b5b5b5",
-        // 执行成功的命令修饰的背景颜色
-        "terminalCommandDecoration.successBackground": "#007c13",
-        // 执行错误的命令修饰的背景颜色
-        "terminalCommandDecoration.errorBackground": "#760000",
-        // 粘滞滚动覆盖层的背景颜色
-        "terminalStickyScroll.background": "#004d3f",
-        // 粘滞滚动覆盖层的边框颜色
-        "terminalStickyScroll.border": "#00ceb2",
-        // 悬停时粘滞滚动覆盖层的背景颜色
-        "terminalStickyScrollHover.background": "#00886f",
-        // 右边区域的活动选项卡的边框颜色
-        "terminal.tab.activeBorder": "#8491fb",
-        // 命令指南的颜色
-        "terminalCommandGuide.foreground": "#ece639",
-        // ANSI 颜色 Black
-        "terminal.ansiBlack": "#111",
-        // ANSI 颜色 Red
-        "terminal.ansiRed": "#aa0000",
-    },
-    // 粗体不采用明亮 ANSI 颜色
-    "terminal.integrated.drawBoldTextInBrightColors": false,
-    // 前景颜色的最小对比度
-    "terminal.integrated.minimumContrastRatio": 10,
-    // 获得焦点时的光标形状为块状
-    "terminal.integrated.cursorStyle": "block",
-    // 未获得焦点时的光标形状为线状
-    "terminal.integrated.cursorStyleInactive": "line",
-    // 光标宽度为 10，仅在形状为线状时有效
-    "terminal.integrated.cursorWidth": 10,
-    // 光标闪烁
-    "terminal.integrated.cursorBlinking": true,
-    // 仅有一个命令行或命令行组时隐藏选项卡
-    "terminal.integrated.tabs.hideCondition": "singleGroup",
-    // 选项卡显示在左边
-    "terminal.integrated.tabs.location": "left",
-    // 使用列表代替选项卡
-    "terminal.integrated.tabs.enabled": true,
-    // 总是显示命令行信息
+    // 同时启用上下文菜单项在集成终端中打开和在外部终端中打开
+    "terminal.explorerKind": "both",
+    // 执行命令之后使命令行获得焦点
+    "terminal.integrated.focusAfterRun": "terminal",
+    // 单击鼠标中键时执行粘贴操作
+    "terminal.integrated.middleClickBehavior": "paste",
+    // 鼠标滚动速度为默认的 2 倍
+    "terminal.integrated.mouseWheelScrollSensitivity": 2,
+    // "terminal.integrated.tabStopWidth": 8,
+    // "terminal.integrated.useWslProfiles": false,
+    //
     "terminal.integrated.tabs.showActiveTerminal": "always",
-    // 仅有一个命令行或命令行组时显示拆分和终止按钮
-    "terminal.integrated.tabs.showActions": "singleTerminal",
-    // 命令行应用状态禁用动画效果
-    "terminal.integrated.tabs.enableAnimation": false,
-    // 命令行应用的标题为当前工作目录
-    "terminal.integrated.tabs.title": "目录：${cwd}",
-    // 命令行应用的说明信息为命令行应用传递给 VSCode 的名称
-    "terminal.integrated.tabs.description": "${sequence}",
-    // 命令行应用的说明和标题之间的分隔符
-    "terminal.integrated.tabs.separator": "+-+",
-    // 默认图标为数组
-    "terminal.integrated.tabs.defaultIcon": "array",
-    // 默认颜色为 ANSI 黄色
-    "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
-    // 启用 GPU 加速功能
-    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.tabs.hideCondition": "singleGroup",
+	// "terminal.integrated.tabs.enabled": true,
+    // 高级功能
+    "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
+    "terminal.integrated.accessibleViewPreserveCursorPosition": true,
+    "terminal.integrated.allowChords": true,
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.autoReplies": {},
+    "terminal.integrated.detectLocale": "auto",
+    "terminal.integrated.enableImages": false,
+    "terminal.integrated.enablePersistentSessions": true,
+    "terminal.integrated.environmentChangesIndicator": "warnonly",
+    "terminal.integrated.environmentChangesRelaunch": true,
+    "terminal.integrated.experimental.windowsUseConptyDll": false,
+    "terminal.integrated.hideOnStartup": "never",
+    "terminal.integrated.initialHint": true,
 }

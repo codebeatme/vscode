@@ -29,7 +29,7 @@
                 "-OutputFormat", "XML",
             ],
         },
-        // 終端機設定檔案 CMD-variables（可能需要重新啟動 VSCode）
+        // 終端機設定檔案 CMD-variables（可能需要重新啟動 Visual Studio Code）
         "CMD-variables": {
             // 啟動 Windows 命令提示字元
             "path": "cmd",
@@ -40,7 +40,7 @@
                 "OS_OTHER": "Hello other worlds!",
             }
         },
-        // 終端機設定檔案 CMD-override（可能需要重新啟動 VSCode）
+        // 終端機設定檔案 CMD-override（可能需要重新啟動 Visual Studio Code）
         "CMD-override": {
             // 啟動 Windows 命令提示字元
             "path": "cmd",

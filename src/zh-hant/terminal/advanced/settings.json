@@ -1,9 +1,9 @@
 {
-    // 执行命令时显示终端视图并使其获得焦点
+    // 執行命令時顯示可存取的視圖並使其獲得焦點
     "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
-    // 保留光标在终端视图中的位置
+    // 保留遊標在可存取的視圖中的位置
     "terminal.integrated.accessibleViewPreserveCursorPosition": true,
-    // 自动响应
+    // 自動回應
     "terminal.integrated.autoReplies": {
         "package name:": "auto\r",
         "version:": "0.0.0\r",
@@ -11,45 +11,45 @@
         "Enter Name": "someone\r",
         "Enter Age": "10\r",
     },
-    // 与命令相关的按键将被发送至 VSCode 而非命令行，除非使用 -
+    // 與命令相關的按鍵將被傳送至 VSCode 而非命令列，除非使用 -
     "terminal.integrated.commandsToSkipShell": [
-        // 以下命令的相关按键将被发送至命令行
+        // 以下命令的相關按鍵將被傳送至命令列
         "-workbench.action.quickOpen",
         "-workbench.action.terminal.focusFind",
     ],
-    // 将多数命令的相关按键发送至 VSCode
+    // 將多數命令的相關按鍵傳送至 VSCode
     "terminal.integrated.sendKeybindingsToShell": true,
-    // 组合按键将被发送至命令行
+    // 組合按鍵將被傳送至命令列
     "terminal.integrated.allowChords": false,
-    // 允许使用助记键打开菜单栏
+    // 允許使用助記鍵開啟功能表欄
     "terminal.integrated.allowMnemonics": true,
-    // 在命令行中显示图像
+    // 在命令列中顯示影像
     "terminal.integrated.enableImages": true,
-    // 启用命令行的粘滞滚动覆盖区
+    // 啟用命令列的自黏捲動覆蓋區
     "terminal.integrated.stickyScroll.enabled": true,
-    // 粘滞滚动覆盖区的最大行数为 10
+    // 自黏捲動覆蓋區的最大行數為 10
     "terminal.integrated.stickyScroll.maxLineCount": 10,
-    // 始终开启本地回显
+    // 始終開啟本機回應
     "terminal.integrated.localEchoEnabled": "on",
-    // 立即进行本地回显
+    // 立即進行本機回應
     "terminal.integrated.localEchoLatencyThreshold": 0,
-    // 本地回显文本的颜色为红色
+    // 本機回應文字的色彩為紅色
     "terminal.integrated.localEchoStyle": "#ff0000",
-    // 命令行的相关信息包含以下某个关键字，则本地回显将被禁用
+    // 命令列的相關資訊包含以下某個關鍵字，則本機回應將被停用
     "terminal.integrated.localEchoExcludePrograms": [
         "powershell",
         "cmd",
     ],
-    // 如果任意命令行拥有子进程，则需要在关闭 VSCode 时确认
+    // 如果任意命令列擁有子處理序，則需要在關閉 VSCode 時確認
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
-    // 如果命令行拥有子进程，则需要在终止时确认
+    // 如果命令列擁有子處理序，則需要在終止時確認
     "terminal.integrated.confirmOnKill": "always",
-    // 不显示警报，即便命令行的退出代码不为 0
+    // 不顯示警示，即便命令列的結束代碼不為 0
     "terminal.integrated.showExitAlert": false,
-    // 将命令修饰显示在装订线中
+    // 將命令修飾顯示在裝訂邊中
     "terminal.integrated.shellIntegration.decorationsEnabled": "gutter",
-    // 不再显示命令指南
+    // 不再顯示命令指南
     "terminal.integrated.shellIntegration.showCommandGuide": false,
-    // 允许脚本注入
+    // 允許腳本註入
     "terminal.integrated.shellIntegration.enabled": true,
 }

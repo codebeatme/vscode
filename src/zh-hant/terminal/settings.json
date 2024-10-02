@@ -5,15 +5,17 @@
     "terminal.external.osxExec": "Terminal.app",
     // 同時啟用操作功能表項在整合式終端機中開啟和在外部終端機中開啟
     "terminal.explorerKind": "both",
+    // 同時啟用操作功能表項在整合式終端機中開啟和在外部終端機中開啟
+    "terminal.sourceControlRepositoriesKind": "both",
     // 新的命令列應用將顯示在編輯器區域中
     "terminal.integrated.defaultLocation": "editor",
-    // 設定工作區的 src 資料夾為命令列的目前工作目錄
+    // 將工作區的 src 資料夾作為命令列的目前工作目錄
     "terminal.integrated.cwd": "src",
 	// 新的命令列應用的目前工作目錄為工作區的根目錄
 	"terminal.integrated.splitCwd": "workspaceRoot",
     // 命令列可以保留 200 行的資訊
     "terminal.integrated.scrollback": 200,
-    // 捲動將顯示動畫效果
+    // 捲動將擁有動畫效果
     "terminal.integrated.smoothScrolling": true,
     // 緩沖區捲動速度增加 7 倍
     "terminal.integrated.fastScrollSensitivity": 7,
@@ -31,8 +33,10 @@
     "terminal.integrated.middleClickBehavior": "paste",
     // 按住 Alt 鍵並點選滑鼠左鍵時不再移動遊標
     "terminal.integrated.altClickMovesCursor": false,
-    // 按下 Ctrl 鍵並捲動滑鼠可以縮放字型
+    // 按住 Ctrl 鍵並捲動滑鼠可以縮放字型
     "terminal.integrated.mouseWheelZoom": true,
+    // 滑鼠捲動速度為預設的 2 倍
+    "terminal.integrated.mouseWheelScrollSensitivity": 2,
     // 執行命令之後使命令列獲得焦點
     "terminal.integrated.focusAfterRun": "terminal",
 }

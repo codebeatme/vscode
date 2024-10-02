@@ -1,0 +1,42 @@
+{
+    // The following three setting items are used to set an external command-line application that is being launched and are not available in the workspace settings
+    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.external.linuxExec": "xterm",
+    "terminal.external.osxExec": "Terminal.app",
+    // Enable context menu items Open in Integrated Terminal and Open in External Terminal at the same time
+    "terminal.explorerKind": "both",
+    // Enable context menu items Open in Integrated Terminal and Open in External Terminal at the same time
+    "terminal.sourceControlRepositoriesKind": "both",
+    // The new command-line application will be displayed in the editor area
+    "terminal.integrated.defaultLocation": "editor",
+    // Use the src folder in the workspace as the current working directory for the command line
+    "terminal.integrated.cwd": "src",
+	// The current working directory of the new command-line application is the root directory of the workspace
+	"terminal.integrated.splitCwd": "workspaceRoot",
+    // The command line can hold up to 200 lines of information
+    "terminal.integrated.scrollback": 200,
+    // Scrolling will be animated
+    "terminal.integrated.smoothScrolling": true,
+    // Increase buffer scrolling speed by a factor of 7
+    "terminal.integrated.fastScrollSensitivity": 7,
+    // The selected content is automatically copied
+    "terminal.integrated.copyOnSelection": true,
+    // Disable paste warnings
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    // Disable file links in remote environments
+    "terminal.integrated.enableFileLinks": "notRemote",
+    // Set the word separator
+    "terminal.integrated.wordSeparators": " (),",
+    // When you click the right mouse button, the text at the mouse will be selected and the context menu will be displayed
+    "terminal.integrated.rightClickBehavior": "selectWord",
+    // Paste when clicking the middle mouse button
+    "terminal.integrated.middleClickBehavior": "paste",
+    // Holding down the Alt key and clicking the left mouse button no longer moves the cursor
+    "terminal.integrated.altClickMovesCursor": false,
+    // Hold down the Ctrl key and scroll the mouse wheel to zoom in and out of the font
+    "terminal.integrated.mouseWheelZoom": true,
+    // Mouse scrolling speed is 2x the default
+    "terminal.integrated.mouseWheelScrollSensitivity": 2,
+    // After the command is executed, the command line gets focus
+    "terminal.integrated.focusAfterRun": "terminal",
+}

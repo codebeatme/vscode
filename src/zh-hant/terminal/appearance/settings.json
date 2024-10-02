@@ -105,5 +105,4 @@
     "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
     // 啟用 GPU 加速功能
     "terminal.integrated.gpuAcceleration": "on",
-    "terminal.integrated.enableVisualBell":,
 }

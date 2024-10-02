@@ -5,15 +5,17 @@
     "terminal.external.osxExec": "Terminal.app",
     // 同时启用上下文菜单项在集成终端中打开和在外部终端中打开
     "terminal.explorerKind": "both",
+    // 同时启用上下文菜单项在集成终端中打开和在外部终端中打开
+    "terminal.sourceControlRepositoriesKind": "both",
     // 新的命令行应用将显示在编辑器区域中
     "terminal.integrated.defaultLocation": "editor",
-    // 设置工作区的 src 文件夹为命令行的当前工作目录
+    // 将工作区的 src 文件夹作为命令行的当前工作目录
     "terminal.integrated.cwd": "src",
 	// 新的命令行应用的当前工作目录为工作区的根目录
 	"terminal.integrated.splitCwd": "workspaceRoot",
     // 命令行可以保留 200 行的信息
     "terminal.integrated.scrollback": 200,
-    // 滚动将显示动画效果
+    // 滚动将拥有动画效果
     "terminal.integrated.smoothScrolling": true,
     // 缓冲区滚动速度增加 7 倍
     "terminal.integrated.fastScrollSensitivity": 7,
@@ -31,7 +33,7 @@
     "terminal.integrated.middleClickBehavior": "paste",
     // 按住 Alt 键并点击鼠标左键时不再移动光标
     "terminal.integrated.altClickMovesCursor": false,
-    // 按下 Ctrl 键并滚动鼠标可以缩放字体
+    // 按住 Ctrl 键并滚动鼠标可以缩放字体
     "terminal.integrated.mouseWheelZoom": true,
     // 鼠标滚动速度为默认的 2 倍
     "terminal.integrated.mouseWheelScrollSensitivity": 2,

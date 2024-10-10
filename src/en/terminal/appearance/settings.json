@@ -1,0 +1,108 @@
+{
+    // The font family is Courier New
+    "terminal.integrated.fontFamily": "Courier New",
+    // The font size is 24 pixels
+    "terminal.integrated.fontSize": 24,
+    // Non-bold text has a font weight of 600
+    "terminal.integrated.fontWeight": 600,
+    // The font weight of bold text is normal
+    "terminal.integrated.fontWeightBold": "normal",
+    // The additional spacing between characters is 5 pixels
+    "terminal.integrated.letterSpacing": 5,
+    // The line height between multiple lines of text is 1.2 times the normal line height
+    "terminal.integrated.lineHeight": 1.2,
+    // Enable custom glyphs for some special characters
+    "terminal.integrated.customGlyphs": true,
+    "workbench.colorCustomizations": {
+        // Foreground color
+        "terminal.foreground": "#eee",
+        // Background color
+        "terminal.background": "#111",
+        // The background color when used as a drag-and-drop target
+        "terminal.dropBackground": "#00FF0033",
+        // Split pane border color
+        "terminal.border": "#fff",
+        // Foreground color of selected content
+        "terminal.selectionForeground": "#FFF",
+        // Background color of selected content
+        "terminal.selectionBackground": "#239484",
+        // Background color of the selected content in the active terminal
+        "terminal.inactiveSelectionBackground": "#6483ac",
+        // Background color of the highlighted content on hover
+        "terminal.hoverHighlightBackground": "#79797999",
+        // Cursor color
+        "terminalCursor.foreground": "#beeb6b",
+        // Color of the content obscured by the block cursor
+        "terminalCursor.background": "#278ef6",
+        // Border color of the overview ruler
+        "terminalOverviewRuler.border": "#ff0000",
+        // Cursor color in the overview ruler
+        "terminalOverviewRuler.cursorForeground": "#c8c211",
+        // Color of the find matches in the overview ruler
+        "terminalOverviewRuler.findMatchForeground": "#1aff00",
+        // Background color of the current find match
+        "terminal.findMatchBackground": "#0f57f333",
+        // Border color of the current find match
+        "terminal.findMatchBorder": "#ff6600",
+        // Background color of non-current find matches
+        "terminal.findMatchHighlightBackground": "#ff660033",
+        // Border color for non-current find matches
+        "terminal.findMatchHighlightBorder": "#0f57f3",
+        // Default background color for command decorations
+        "terminalCommandDecoration.defaultBackground": "#b5b5b5",
+        // Decoration background color of successful commands
+        "terminalCommandDecoration.successBackground": "#007c13",
+        // Decoration background color of error commands
+        "terminalCommandDecoration.errorBackground": "#760000",
+        // Background color of the sticky scroll overlay
+        "terminalStickyScroll.background": "#004d3f",
+        // Border color of the sticky scroll overlay
+        "terminalStickyScroll.border": "#00ceb2",
+        // Background color of the sticky scroll overlay on hover
+        "terminalStickyScrollHover.background": "#00886f",
+        // Border color of the active tab in the right area
+        "terminal.tab.activeBorder": "#8491fb",
+        // Color of the command guide
+        "terminalCommandGuide.foreground": "#ece639",
+        // ANSI Color Black
+        "terminal.ansiBlack": "#111",
+        // ANSI Color Red
+        "terminal.ansiRed": "#aa0000",
+    },
+    // Bold text does not have bright ANSI colors
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    // Minimum contrast for foreground colors
+    "terminal.integrated.minimumContrastRatio": 10,
+    // Cursor shape is blocky when focus is obtained
+    "terminal.integrated.cursorStyle": "block",
+    // Cursor shape is linear when focus is not obtained
+    "terminal.integrated.cursorStyleInactive": "line",
+    // Cursor width is 10, valid only when the shape is linear
+    "terminal.integrated.cursorWidth": 10,
+    // The cursor will blink
+    "terminal.integrated.cursorBlinking": true,
+    // Hide tabs when only one command-line or command-line group is available
+    "terminal.integrated.tabs.hideCondition": "singleGroup",
+    // Tabs are displayed on the left
+    "terminal.integrated.tabs.location": "left",
+    // Use a list box instead of tabs
+    "terminal.integrated.tabs.enabled": true,
+    // Command-line information is always displayed
+    "terminal.integrated.tabs.showActiveTerminal": "always",
+    // Show the split and trash can button when there is only one command-line or command-line group
+    "terminal.integrated.tabs.showActions": "singleTerminal",
+    // Animations are not enabled for command-line application states
+    "terminal.integrated.tabs.enableAnimation": false,
+    // The command line application's title is the current working directory
+    "terminal.integrated.tabs.title": "Directory: ${cwd}",
+    // The description information for the command-line application is the name that the command-line application passes to Visual Studio Code
+    "terminal.integrated.tabs.description": "${sequence}",
+    // The separator between the description and title of the command-line application
+    "terminal.integrated.tabs.separator": "+-+",
+    // The default icon is array
+    "terminal.integrated.tabs.defaultIcon": "array",
+    // The default color is ANSI yellow
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
+    // Enable GPU acceleration
+    "terminal.integrated.gpuAcceleration": "on",
+}

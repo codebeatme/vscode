@@ -1,0 +1,75 @@
+{
+    // Manage environment variables on the command line in Windows
+    "terminal.integrated.env.windows": {
+        // Delete the existing environment variable OS
+        "OS": null,
+        // Add a new environment variable OS_OTHER
+        "OS_OTHER": "Other worlds!",
+    },
+    // Terminal profiles on Windows Systems
+    "terminal.integrated.profiles.windows": {
+        // Terminal profile A Shell
+        "A Shell": {
+            "path": "<Path information for the shell program>",
+        },
+        // Terminal profile New PS
+        "New PS": {
+            // This will use the built-in terminal profile PowerShell
+            "source": "PowerShell",
+            // Overwrite the path property and start the Windows Command Prompt instead
+            "path": "cmd",
+        },
+        // Terminal profile PS-parameters
+        "PS-parameters": {
+            // This will use the built-in terminal profile PowerShell
+            "source": "PowerShell",
+            // Add startup arguments for PowerShell
+            "args": [
+                // Startup argument -OutputFormat with the value XML
+                "-OutputFormat", "XML",
+            ],
+        },
+        // Terminal profile CMD-variables (may require restarting Visual Studio Code)
+        "CMD-variables": {
+            // Start the Windows Command Prompt
+            "path": "cmd",
+            "env": {
+                // Change the existing environment variable OS
+                "OS": "Hello world!",
+                // Add a new environment variable OS_OTHER
+                "OS_OTHER": "Hello other worlds!",
+            }
+        },
+        // Terminal profile CMD-override (may require restarting Visual Studio Code)
+        "CMD-override": {
+            // Start the Windows Command Prompt
+            "path": "cmd",
+            "env": {
+                // Re-add the deleted environment variable OS
+                "OS": "Hello world!",
+            }
+        },
+        // Terminal profile PS-customized
+        "PS-customized": {
+            // This will use the built-in terminal profile PowerShell
+            "source": "PowerShell",
+            // Replace the title of the command-line application with the name of the terminal profile PS-customized
+            "overrideName": true,
+            // Set the icon of the terminal
+            "icon": "calendar",
+            // Set the icon color of the terminal
+            "color": "terminal.ansiGreen",
+        },
+        // Remove the terminal profile Command Prompt
+        "Command Prompt": null,
+    },
+    // Select PS-customized as the default terminal profile
+    "terminal.integrated.defaultProfile.windows": "PS-customized",
+    // Set a terminal profile for automation features
+    "terminal.integrated.automationProfile.windows": {
+        // Start the Windows Command Prompt
+        "path": "cmd",
+        // Set the icon color of the terminal (may have no effect)
+        "color": "terminal.ansiRed",
+    },
+}

@@ -1,97 +1,205 @@
 {
-    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\cmd.exe",
-    "terminal.explorerKind":"both",
-    // 如果任意命令行拥有子进程，则需要在关闭 VSCode 时确认
-    // "terminal.integrated.confirmOnExit": "hasChildProcesses",
-    // 如果命令行拥有子进程，则需要在终止时确认
-    // "terminal.integrated.confirmOnKill": "always",
-    // 不显示警报，即便命令行的退出代码不为 0
-    "terminal.integrated.showExitAlert": false,
-    // 
-    // "terminal.integrated.tabs.showActiveTerminal": "always",
-    // "terminal.integrated.tabs.hideCondition": "singleGroup",
-	// "terminal.integrated.tabs.enabled": true,
-    // 高级功能
-    // // 执行命令时显示终端视图并使其获得焦点
-    // "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
-    // // 保留光标在终端视图中的位置
-    // "terminal.integrated.accessibleViewPreserveCursorPosition": true,
-    // 自动响应
-    // "terminal.integrated.autoReplies": {
-    //     "package name:": "auto\r",
-    //     "version:": "0.0.0\r",
-    //     "(yes)": "no\r",
-    //     "Enter Name": "someone\r",
-    //     "Enter Age": "10\r",
-    // },
-    // // 与命令相关的按键将被发送至 VSCode 而非命令行，除非使用 -
-    // "terminal.integrated.commandsToSkipShell": [
-    //     // 以下命令的相关按键将被发送至命令行
-    //     "-workbench.action.quickOpen",
-    //     "-workbench.action.terminal.focusFind",
-    // ],
-    // // 组合按键将被发送至命令行
-    // "terminal.integrated.allowChords": false,
-    // // 允许使用助记键打开菜单栏
-    // "terminal.integrated.allowMnemonics": true,
-    // "terminal.integrated.gpuAcceleration": "on",
-    // // 在命令行中显示图像
-    // "terminal.integrated.enableImages": true,
-    // "terminal.integrated.environmentChangesIndicator": "off",
-    // "terminal.integrated.enablePersistentSessions": true,
-    // 启用命令行的粘滞滚动覆盖区
-    "terminal.integrated.stickyScroll.enabled": true,
-    // 粘滞滚动覆盖区的最大行数为 10
-    "terminal.integrated.stickyScroll.maxLineCount": 10,
-    // // 始终开启本地回显
-    // "terminal.integrated.localEchoEnabled": "on",
-    // // 立即进行本地回显
-    // "terminal.integrated.localEchoLatencyThreshold": 0,
-    // // 本地回显文本的颜色为红色
-    // "terminal.integrated.localEchoStyle": "#ff0000",
-    // // 命令行的相关信息包含以下某个关键字，则本地回显将被禁用
-    // "terminal.integrated.localEchoExcludePrograms": [
-    //     "powershell",
-    //     "cmd",
-    // ],
-    // 允许脚本注入
-    "terminal.integrated.shellIntegration.enabled": true,
-    // 将命令修饰显示在装订线中
-    "terminal.integrated.shellIntegration.decorationsEnabled": "both",
-    // // 命令行的历史记录数量为 3
-    // "terminal.integrated.shellIntegration.history": 0,
+    // The font family is Courier New
+    "terminal.integrated.fontFamily": "Courier New",
+    // The font size is 24 pixels
+    "terminal.integrated.fontSize": 24,
+    // Non-bold text has a font weight of 600
+    "terminal.integrated.fontWeight": 600,
+    // The font weight of bold text is normal
+    "terminal.integrated.fontWeightBold": "normal",
+    // The additional spacing between characters is 5 pixels
+    "terminal.integrated.letterSpacing": 5,
+    // The line height between multiple lines of text is 1.2 times the normal line height
+    "terminal.integrated.lineHeight": 1.2,
+    // 为一些特殊字符启用自定义字形
+    "terminal.integrated.customGlyphs": true,
     "workbench.colorCustomizations": {
-        "terminalCommandDecoration.successBackground": "#ff00ff",
+        // Foreground color
+        "terminal.foreground": "#eee",
+        // Background color
+        "terminal.background": "#111",
+        // The background color when used as a drag-and-drop target
+        "terminal.dropBackground": "#00FF0033",
+        // Split pane border color
+        "terminal.border": "#fff",
+        // Foreground color of selected content
+        "terminal.selectionForeground": "#FFF",
+        // Background color of selected content
+        "terminal.selectionBackground": "#239484",
+        // Background color of the selected content in the active terminal
+        "terminal.inactiveSelectionBackground": "#6483ac",
+        // Background color of the highlighted content on hover
+        "terminal.hoverHighlightBackground": "#79797999",
+        // Cursor color
+        "terminalCursor.foreground": "#beeb6b",
+        // Color of the content obscured by the block cursor
+        "terminalCursor.background": "#278ef6",
+        // Border color of the overview ruler
+        "terminalOverviewRuler.border": "#ff0000",
+        // Cursor color in the overview ruler
+        "terminalOverviewRuler.cursorForeground": "#c8c211",
+        // Color of the find matches in the overview ruler
+        "terminalOverviewRuler.findMatchForeground": "#1aff00",
+        // Background color of the current find match
+        "terminal.findMatchBackground": "#0f57f333",
+        // Border color of the current find match
+        "terminal.findMatchBorder": "#ff6600",
+        // Background color of non-current find matches
+        "terminal.findMatchHighlightBackground": "#ff660033",
+        // Border color for non-current find matches
+        "terminal.findMatchHighlightBorder": "#0f57f3",
+        // Default background color for command decorations
+        "terminalCommandDecoration.defaultBackground": "#b5b5b5",
+        // Decoration background color of successful commands
+        "terminalCommandDecoration.successBackground": "#007c13",
+        // Decoration background color of error commands
+        "terminalCommandDecoration.errorBackground": "#760000",
+        // Background color of the sticky scroll overlay
+        "terminalStickyScroll.background": "#004d3f",
+        // Border color of the sticky scroll overlay
+        "terminalStickyScroll.border": "#00ceb2",
+        // Background color of the sticky scroll overlay on hover
+        "terminalStickyScrollHover.background": "#00886f",
+        // Border color of the active tab in the right area
+        "terminal.tab.activeBorder": "#8491fb",
+        // Color of the command guide
+        "terminalCommandGuide.foreground": "#ece639",
+        // ANSI Color Black
+        "terminal.ansiBlack": "#111",
+        // ANSI Color Red
+        "terminal.ansiRed": "#aa0000",
     },
-    // "terminal.integrated.commandsToSkipShell": [
-	// 	// 以下命令的相关按键将被发送至命令行
-	// 	"-workbench.action.quickOpen",
-	// 	"-workbench.action.terminal.focusFind",
-	// ],
-    // 将多数命令的相关按键发送至 VSCode
-    "terminal.integrated.sendKeybindingsToShell": true,
-    "terminal.integrated.ignoreBracketedPasteMode": false,
-    "terminal.integrated.ignoreProcessNames": [
-        "starship",
-        "oh-my-posh",
-        "python",
-        "pwsh"
-    ],
-    "terminal.integrated.enablePersistentSessions": true,
-    "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
-    "terminal.integrated.unicodeVersion": "11",
-    "terminal.integrated.windowsEnableConpty": true,
-    // "terminal.integrated.persistentSessionScrollback": 100,
-    // "terminal.integrated.environmentChangesIndicator": "on",
-    // "terminal.integrated.environmentChangesRelaunch": true,
-    // "terminal.integrated.tabStopWidth": 8,
-    // "terminal.integrated.useWslProfiles": false,
-    // "terminal.integrated.detectLocale": "auto",
-    // "terminal.integrated.enableImages": false,
-    // "terminal.integrated.enablePersistentSessions": true,
-    // "terminal.integrated.environmentChangesIndicator": "warnonly",
-    // "terminal.integrated.environmentChangesRelaunch": true,
-    // "terminal.integrated.experimental.windowsUseConptyDll": false,
-    // "terminal.integrated.hideOnStartup": "never",
-    // "terminal.integrated.initialHint": true,
+    // 粗体不采用明亮 ANSI 颜色
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    // 前景颜色的最小对比度
+    "terminal.integrated.minimumContrastRatio": 10,
+    // 获得焦点时的光标形状为块状
+    "terminal.integrated.cursorStyle": "block",
+    // 未获得焦点时的光标形状为线状
+    "terminal.integrated.cursorStyleInactive": "line",
+    // 光标宽度为 10，仅在形状为线状时有效
+    "terminal.integrated.cursorWidth": 10,
+    // 光标闪烁
+    "terminal.integrated.cursorBlinking": true,
+    // 仅有一个命令行或命令行组时隐藏选项卡
+    "terminal.integrated.tabs.hideCondition": "singleGroup",
+    // 选项卡显示在左边
+    "terminal.integrated.tabs.location": "left",
+    // 使用列表代替选项卡
+    "terminal.integrated.tabs.enabled": true,
+    // 总是显示命令行信息
+    "terminal.integrated.tabs.showActiveTerminal": "always",
+    // 仅有一个命令行或命令行组时显示拆分和终止按钮
+    "terminal.integrated.tabs.showActions": "singleTerminal",
+    // 命令行应用状态禁用动画效果
+    "terminal.integrated.tabs.enableAnimation": false,
+    // 命令行应用的标题为当前工作目录
+    "terminal.integrated.tabs.title": "目录：${cwd}",
+    // 命令行应用的说明信息为命令行应用传递给 Visual Studio Code 的名称
+    "terminal.integrated.tabs.description": "${sequence}",
+    // 命令行应用的说明和标题之间的分隔符
+    "terminal.integrated.tabs.separator": "+-+",
+    // 默认图标为数组
+    "terminal.integrated.tabs.defaultIcon": "array",
+    // 默认颜色为 ANSI 黄色
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
+    // 启用 GPU 加速功能
+    "terminal.integrated.gpuAcceleration": "on",
 }
+// {
+//     "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\cmd.exe",
+//     "terminal.explorerKind":"both",
+//     // 如果任意命令行拥有子进程，则需要在关闭 VSCode 时确认
+//     // "terminal.integrated.confirmOnExit": "hasChildProcesses",
+//     // 如果命令行拥有子进程，则需要在终止时确认
+//     // "terminal.integrated.confirmOnKill": "always",
+//     // 不显示警报，即便命令行的退出代码不为 0
+//     "terminal.integrated.showExitAlert": false,
+//     // 
+//     // "terminal.integrated.tabs.showActiveTerminal": "always",
+//     // "terminal.integrated.tabs.hideCondition": "singleGroup",
+// 	// "terminal.integrated.tabs.enabled": true,
+//     // 高级功能
+//     // // 执行命令时显示终端视图并使其获得焦点
+//     // "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
+//     // // 保留光标在终端视图中的位置
+//     // "terminal.integrated.accessibleViewPreserveCursorPosition": true,
+//     // 自动响应
+//     // "terminal.integrated.autoReplies": {
+//     //     "package name:": "auto\r",
+//     //     "version:": "0.0.0\r",
+//     //     "(yes)": "no\r",
+//     //     "Enter Name": "someone\r",
+//     //     "Enter Age": "10\r",
+//     // },
+//     // // 与命令相关的按键将被发送至 VSCode 而非命令行，除非使用 -
+//     // "terminal.integrated.commandsToSkipShell": [
+//     //     // 以下命令的相关按键将被发送至命令行
+//     //     "-workbench.action.quickOpen",
+//     //     "-workbench.action.terminal.focusFind",
+//     // ],
+//     // // 组合按键将被发送至命令行
+//     // "terminal.integrated.allowChords": false,
+//     // // 允许使用助记键打开菜单栏
+//     // "terminal.integrated.allowMnemonics": true,
+//     // "terminal.integrated.gpuAcceleration": "on",
+//     // // 在命令行中显示图像
+//     // "terminal.integrated.enableImages": true,
+//     // "terminal.integrated.environmentChangesIndicator": "off",
+//     // "terminal.integrated.enablePersistentSessions": true,
+//     // 启用命令行的粘滞滚动覆盖区
+//     "terminal.integrated.stickyScroll.enabled": true,
+//     // 粘滞滚动覆盖区的最大行数为 10
+//     "terminal.integrated.stickyScroll.maxLineCount": 10,
+//     // // 始终开启本地回显
+//     // "terminal.integrated.localEchoEnabled": "on",
+//     // // 立即进行本地回显
+//     // "terminal.integrated.localEchoLatencyThreshold": 0,
+//     // // 本地回显文本的颜色为红色
+//     // "terminal.integrated.localEchoStyle": "#ff0000",
+//     // // 命令行的相关信息包含以下某个关键字，则本地回显将被禁用
+//     // "terminal.integrated.localEchoExcludePrograms": [
+//     //     "powershell",
+//     //     "cmd",
+//     // ],
+//     // 允许脚本注入
+//     "terminal.integrated.shellIntegration.enabled": true,
+//     // 将命令修饰显示在装订线中
+//     "terminal.integrated.shellIntegration.decorationsEnabled": "both",
+//     // // 命令行的历史记录数量为 3
+//     // "terminal.integrated.shellIntegration.history": 0,
+//     "workbench.colorCustomizations": {
+//         "terminalCommandDecoration.successBackground": "#ff00ff",
+//     },
+//     // "terminal.integrated.commandsToSkipShell": [
+// 	// 	// 以下命令的相关按键将被发送至命令行
+// 	// 	"-workbench.action.quickOpen",
+// 	// 	"-workbench.action.terminal.focusFind",
+// 	// ],
+//     // 将多数命令的相关按键发送至 VSCode
+//     "terminal.integrated.sendKeybindingsToShell": true,
+//     "terminal.integrated.ignoreBracketedPasteMode": false,
+//     "terminal.integrated.ignoreProcessNames": [
+//         "starship",
+//         "oh-my-posh",
+//         "python",
+//         "pwsh"
+//     ],
+//     "terminal.integrated.enablePersistentSessions": true,
+//     "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+//     "terminal.integrated.unicodeVersion": "11",
+//     "terminal.integrated.windowsEnableConpty": true,
+//     // "terminal.integrated.persistentSessionScrollback": 100,
+//     // "terminal.integrated.environmentChangesIndicator": "on",
+//     // "terminal.integrated.environmentChangesRelaunch": true,
+//     // "terminal.integrated.tabStopWidth": 8,
+//     // "terminal.integrated.useWslProfiles": false,
+//     // "terminal.integrated.detectLocale": "auto",
+//     // "terminal.integrated.enableImages": false,
+//     // "terminal.integrated.enablePersistentSessions": true,
+//     // "terminal.integrated.environmentChangesIndicator": "warnonly",
+//     // "terminal.integrated.environmentChangesRelaunch": true,
+//     // "terminal.integrated.experimental.windowsUseConptyDll": false,
+//     // "terminal.integrated.hideOnStartup": "never",
+//     // "terminal.integrated.initialHint": true,
+// }

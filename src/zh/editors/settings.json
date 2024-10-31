@@ -1,0 +1,20 @@
+{
+    // 使用 Ctrl 或 Command 键来添加辅助光标
+    "editor.multiCursorModifier": "ctrlCmd",
+    // 设置光标环绕行的数量，并在更多时间点启用环绕行
+    "editor.cursorSurroundingLines": 20,
+    "editor.cursorSurroundingLinesStyle": "all",
+    // 启用列选择模式
+    "editor.columnSelection": true,
+    // 指定默认的编码为 utf16be
+    "files.encoding": "utf16be",
+    // 在打开文件时推断编码
+    "files.autoGuessEncoding": true,
+    // 更改的文件在 3 秒后被自动保存
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    // 存在错误的文件不会被自动保存
+    "files.autoSaveWhenNoErrors": true,
+    // 非工作区的文件不会被自动保存
+    "files.autoSaveWorkspaceFilesOnly": true,
+}

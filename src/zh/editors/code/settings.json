@@ -1,0 +1,34 @@
+{
+	// 一行代码输入完毕之后，进行格式化
+	"editor.formatOnType": true,
+	// 对粘贴的内容进行格式化
+	"editor.formatOnPaste": true,
+	// 在保存文件时，进行格式化
+	"editor.formatOnSave": true,
+	// 在保存文件时，仅格式化被修改的代码
+	"editor.formatOnSaveMode": "modifications",
+	// 总是显示折叠和展开按钮
+	"editor.showFoldingControls": "always",
+	// 自动折叠导入语句，在文件第一次被打开时
+	"editor.foldingImportsByDefault": true,
+	// 折叠区域的最大数量为 100
+	"editor.foldingMaximumRegions": 100,
+	// 使用缩进级别评估折叠区域
+	"editor.foldingStrategy": "indentation",
+	// 禁用折叠代码功能
+	"editor.folding": false,
+	// 不会高亮显示折叠区域
+	"editor.foldingHighlight": false,
+	// 自动换行的缩进级别比原有缩进级别大 2
+	"editor.wrappingIndent": "deepIndent",
+	// 不会根据内容来推断缩进方式
+	"editor.detectIndentation": false,
+	// 使用制表符进行缩进
+	"editor.insertSpaces": false,
+	// 启用缩进参考线
+	"editor.guides.indentation": true,
+	// 总是高亮显示缩进参考线
+	"editor.guides.highlightActiveIndentation": "always",
+    // 制表符大小为 3
+	"editor.tabSize": 3
+}

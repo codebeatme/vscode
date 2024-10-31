@@ -1,0 +1,34 @@
+{
+	// 一行程式碼輸入完畢之後，進行格式化
+	"editor.formatOnType": true,
+	// 對貼上的內容進行格式化
+	"editor.formatOnPaste": true,
+	// 在儲存檔案時，進行格式化
+	"editor.formatOnSave": true,
+	// 在儲存檔案時，僅格式化被修改的程式碼
+	"editor.formatOnSaveMode": "modifications",
+	// 總是顯示折疊和展開按鈕
+	"editor.showFoldingControls": "always",
+	// 自動折疊匯入陳述式，在檔案第一次被開啟時
+	"editor.foldingImportsByDefault": true,
+	// 折疊區域的最大數量為 100
+	"editor.foldingMaximumRegions": 100,
+	// 使用縮排層級評定折疊區域
+	"editor.foldingStrategy": "indentation",
+	// 停用折疊程式碼功能
+	"editor.folding": false,
+	// 不會醒目提示折疊區域
+	"editor.foldingHighlight": false,
+	// 自動換行的縮排層級比原有縮排層級大 2
+	"editor.wrappingIndent": "deepIndent",
+	// 不會根據內容來推斷縮排方式
+	"editor.detectIndentation": false,
+	// 使用定位字元進行縮排
+	"editor.insertSpaces": false,
+	// 啟用縮排輔助線
+	"editor.guides.indentation": true,
+	// 總是醒目提示縮排輔助線
+	"editor.guides.highlightActiveIndentation": "always",
+    // 定位字元大小為 3
+	"editor.tabSize": 3
+}

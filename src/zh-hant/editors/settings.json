@@ -1,0 +1,20 @@
+{
+    // 使用 Ctrl 或 Command 鍵來新增次要遊標
+    "editor.multiCursorModifier": "ctrlCmd",
+    // 設定遊標環繞行的數量，並在更多時間點啟用環繞行
+    "editor.cursorSurroundingLines": 20,
+    "editor.cursorSurroundingLinesStyle": "all",
+    // 啟用資料行選取模式
+    "editor.columnSelection": true,
+    // 指定預設的編碼為 utf16be
+    "files.encoding": "utf16be",
+    // 在開啟檔案時推斷編碼
+    "files.autoGuessEncoding": true,
+    // 變更的檔案在 3 秒後被自動儲存
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    // 存在錯誤的檔案不會被自動儲存
+    "files.autoSaveWhenNoErrors": true,
+    // 非工作區的檔案不會被自動儲存
+    "files.autoSaveWorkspaceFilesOnly": true,
+}
